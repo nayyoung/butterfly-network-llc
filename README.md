@@ -2,7 +2,7 @@
 
 This repository contains the canonical homepage template for **Butterfly Network LLC**:
 
-- `/home/runner/work/butterfly-network-llc/butterfly-network-llc/butterfly-network-template (2).html`
+- `butterfly-network-template (2).html`
 
 ## Purpose
 
