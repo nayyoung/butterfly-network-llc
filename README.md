@@ -2,7 +2,7 @@
 
 This repository contains the canonical homepage template for **Butterfly Network LLC**:
 
-- `butterfly-network-template (2).html`
+- `index.html`
 
 ## Purpose
 
@@ -13,20 +13,16 @@ This template is the source of truth for:
 - Sharetribe mapping notes for implementation
 - accessibility handoff guidance
 
-## Scope
+## Deployment
 
-This repo is currently documentation + template only.
+This site is deployed as a static site on **Vercel**. Vercel automatically serves `index.html` at the root — no build pipeline or configuration file is required.
 
-- No build pipeline is required.
-- No package manager or runtime is required.
-- The HTML file should remain unchanged unless explicitly requested.
-
-## Files Added for Content Operations
-
-- `FRONTEND_STANDARDS_CONTENT.md` — standardized website content and frontend messaging guidance derived from the template.
+To deploy:
+1. Import this repository into [vercel.com](https://vercel.com).
+2. Leave all build settings blank (Framework Preset: **Other**, no build command, no output directory override).
+3. Deploy.
 
 ## How to Use
 
-1. Open the HTML template and review section annotations.
-2. Use `FRONTEND_STANDARDS_CONTENT.md` as the approved copy and messaging baseline.
-3. Implement content in your frontend/CMS while preserving the same section intent and accessibility requirements.
+1. Open `index.html` and review section annotations.
+2. Implement content in your frontend/CMS while preserving the same section intent and accessibility requirements.
